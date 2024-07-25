@@ -34,8 +34,7 @@
         "laravelwebdev/responsive": "^1.0",
         "livewire/livewire": "^2.10",
         "spatie/laravel-medialibrary": "^9",
-        "waynestate/nova-ckeditor4-field": "^0.7.0",
-        "example/miami-ice": "*"
+        "waynestate/nova-ckeditor4-field": "^0.7.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
