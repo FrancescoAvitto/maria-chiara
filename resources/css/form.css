@@ -1,0 +1,11 @@
+.contact-form input,
+.contact-form input:active,
+.contact-form input:focus,
+.contact-form textarea,
+.contact-form textarea:active,
+.contact-form textarea:focus{
+    background-color: rgba(247, 205, 151, 0.411) !important;
+    box-shadow: none !important;
+    border-radius: initial !important;
+    border: none !important;
+}

@@ -1,0 +1,27 @@
+nav {
+    backdrop-filter: blur(4px);
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+ul > li{
+    margin-left: 20px;
+}
+
+.testo-nav{
+    color: #707070;
+}
+
+/* .navbar-nav {
+    background-color: white;
+} */

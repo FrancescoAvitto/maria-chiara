@@ -1,0 +1,47 @@
+.colorcard {
+    background-color: #FFFAF8;
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.59); 
+    box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.20);
+    border: none;
+}
+
+.border-custom {
+ height: 2px;
+ width: 20%;
+ background-color: #707070;
+}
+
+.border-custom-big {
+    height: 5px;
+    width: 10%;
+    background-color: #707070;
+   }
+
+.fw-500 {
+    font-weight: 600;
+}
+
+.card-height {
+    height: 510px;
+}
+
+.color-text-small {
+    color: #BDBDBD;
+}
+
+.article-btn{
+    width:35px;
+    height:35px;
+    background-color:#ffcccb99 ;
+    transition:200ms;
+    border-radius:50%;
+    position:absolute;
+    right:15px;
+    bottom:15px;
+}
+
+.article-btn:hover {
+    transform:scale(1.2);
+}
+
+

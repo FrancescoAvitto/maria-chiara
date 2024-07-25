@@ -1,0 +1,136 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+}
+
+.bg-white {
+    background-color:#FFFEFC;
+}
+
+.border-bottom-dashed {
+    border-bottom-style: dashed;
+    border-width: 4px;
+    border-color: rgba(123, 123, 123, 0.55);
+  }
+
+  .border-top-dashed {
+    border-top-style: dashed;
+    border-width: 4px;
+    border-color: rgba(123, 123, 123, 0.55);
+  }
+
+  .youtube-channel-btn {
+    color:#707070;
+    transition-duration: 300ms;
+  }
+
+  .youtube-channel-btn:hover {
+    transform:scale(1.2);
+    color:#707070;
+  }
+
+  .container-video {
+    width:100%;
+  }
+
+  .bg-light {
+    background-color: #FFFAF8 !important ;
+  }
+
+  .bg-footer {
+    background: url('/media/Footer/Footer.jpg');
+    background-size: cover;
+
+  }
+
+  .iframe-hight {
+    height:650px;
+  }
+
+  .bg-article-index {
+    background:url('/media/Header/Articoli_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+  .bg-portfolio-index {
+    background:url('/media/Header/Portfolio_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-profile-pic {
+    background:linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.5)), url('/media/Header/chi_sono.jpg');
+    background-position:100% top;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+  }
+
+  .bg-contacts {
+    background:url('/media/Header/Contatti_Header.jpg');
+    background-size:cover;
+    background-position:100% center;
+    background-repeat: no-repeat;
+  }
+
+  .submit-btn-form {
+    background-color:#707070;
+    transition-duration: 300ms;
+    color:#FBEBD6;
+  }
+
+  .submit-btn-form:hover {
+    background-color:#444444;
+    color:#FBEBD6;
+
+  }
+
+  .bg-easter-egg{
+    background:url('/media/Header/Easter_egg.png');
+    min-height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  @media only screen and (max-width: 766px) {
+    .container-video {
+        width:100%;
+    }
+    .iframe-hight {
+        height:400px;
+      }
+
+      .bg-article-index {
+        background:url('/media/Header/Articoli_Header_Responsive.jpg');
+        background-size:cover;
+        background-position:100% center;
+        background-repeat: no-repeat;
+      }
+      .bg-portfolio-index {
+        background:url('/media/Header/Portfolio_Header_Responsive.jpg');
+        background-size:cover;
+        background-position:100% center;
+        background-repeat: no-repeat;
+      }
+
+      .bg-contacts {
+        background:url('/media/Header/Contatti_Header_Responsive.jpg');
+
+      }
+      .bg-easter-egg{
+        background:url('/media/Header/Easter_egg_responsive.png');
+
+      }
+
+      .bg-profile-pic {
+        background:linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.5)), url('/media/Header/chi_sono_responsive.jpg');
+      
+       
+      }
+    
+    
+
+  }
